@@ -1,0 +1,6 @@
+{
+    "name": "Python 3.6 Development",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "postCreateCommand": "pip install --user -r requirements.txt"  // Optional: Install dependencies after container creation
+  }
